@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meytal Keren Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Meytal Keren</h1>
+        <ul class="list">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Computer Science Enthusiast</h1>
+            <p>
+                I'm a third-year computer science student with a love for development, data science, and machine learning.  
+            Proficient in Python, C++, C#, and C, I enjoy solving problems and creating innovative solutions.  
+            Excited to start my career, I’m eager to contribute to impactful tech projects.  
+            </p>
+        </div>
+        <video class="hero-avatar" autoplay loop muted>
+            <source src="videos/videoavatar.mp4" type="video/mp4">
+        </video>
+    </header>
+    
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+    
+        <!-- Refrigerator Management System -->
+        <div class="project-container">
+            <div class="project">
+                <div class="project-details">
+                    <h3><i class="fas fa-cogs"></i> Refrigerator Management System <span class="tech-stack">(C#, OOP, WinForms)</span></h3>
+                    <p>
+                        As part of a school project aimed at enhancing my understanding of Object-Oriented Programming and event-driven application design, I developed a desktop application using .NET and Windows Forms.  
+                        The project includes features like:
+                        <ul>
+                            <li><i class="fas fa-grip-lines-vertical"></i> Interactive drag-and-drop UI for organizing refrigerator compartments.</li>
+                            <li><i class="fas fa-box"></i> Inventory management system for tracking food items.</li>
+                            <li><i class="fas fa-save"></i> Data persistence with object serialization for user sessions.</li>
+                            <li><i class="fas fa-cogs"></i> Application of OOP principles like encapsulation and polymorphism.</li>
+                        </ul>
+                        This project demonstrates my ability to create functional applications using C# and reinforces my knowledge of OOP practices and event-driven programming.
+                    </p>
+                </div>
+                <div class="project-media">
+                    <video width="100%" height="auto" autoplay muted controls playsinline>
+                        <source src="videos/Refrigerator_Management_System.mp4" type="video/mp4">
+                    </video>
+                    <a href="https://github.com/Meytalke/Refrigerator" target="_blank" class="github-link">
+                        <i class="fab fa-github"></i>                        
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Inventory Management System -->
+        <div class="project-container">
+            <div class="project">
+                <div class="project-details">
+                    <h3><i class="fas fa-warehouse"></i> Inventory Management System <span class="tech-stack">(Python, Machine Learning, SQL)</span></h3>
+                    <p>
+                        Built an advanced inventory management system using Python and SQL. Key features include:
+                        <ul>
+                            <li><i class="fas fa-plus-circle"></i> Adding, updating, and removing inventory items.</li>
+                            <li><i class="fas fa-search"></i> Category-based filtering and search functionality.</li>
+                            <li><i class="fas fa-user-check"></i> Facial recognition login for authorized users, powered by OpenCV and machine learning.</li>
+                            <li><i class="fas fa-bell"></i> Automated email notifications for low stock levels and periodic inventory reports.</li>
+                            <li><i class="fas fa-chart-bar"></i> Comprehensive reporting and visualization of inventory data.</li>
+                        </ul>
+                        This project showcases the integration of GUI development, machine learning, and backend database management for a complete software solution.
+                    </p>
+                </div>
+                <div class="project-media">
+                    <video width="100%" height="auto" autoplay muted controls playsinline>
+                        <source src="videos/InventoryManagementSystem.mp4" type="video/mp4">
+                    </video>
+                    <a href="https://github.com/Meytalke/Inventory-Management" target="_blank" class="github-link">
+                        <i class="fab fa-github"></i>             
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Unity Game Development Projects -->
+        <div class="project-container">
+            <div class="project">
+                <div class="project-details">
+                    <h3><i class="fas fa-gamepad"></i> Unity Game Development Projects</h3>
+                    <p>
+                        As part of completing the <strong>Complete C# Unity Game Developer 3D (Updated to Unity 6)</strong> course, I gained hands-on experience in creating 3D games and honing my skills in game development, physics, and interactive design. 
+                        Throughout the course, I developed several exciting projects, including:
+                        <ul>
+                            <li><i class="fas fa-play-circle"></i> <strong>Obstacle Dodge:</strong> A fast-paced dodging game where the player controls a character to avoid obstacles and survive as long as possible, enhancing my understanding of collision detection and player movement.</li>
+                            <li><i class="fas fa-rocket"></i> <strong>Rocket Boost:</strong> A physics-driven game where players navigate a rocket through space, utilizing Unity's physics engine to create realistic movement and interactions.</li>
+                            <li><i class="fas fa-space-shuttle"></i> <strong>Galaxy Strike:</strong> A rail shooter game where players control a spaceship in an endless battle against enemies, integrating shooting mechanics and dynamic level design.</li>
+                        </ul>
+                        This course not only solidified my expertise in Unity and C# programming but also deepened my understanding of game mechanics, physics simulation, and user interface design. 
+                    </p>
+                </div>
+                <div class="project-media">
+                    <div class="carousel" id="unity-carousel">
+                        <button class="carousel-button left" onclick="prevSlide('unity')">❮</button>
+                        <div class="carousel-track-container">
+                            <div class="carousel-track">
+                                <!-- Unity Project Videos -->
+                                <video width="100%" height="auto" autoplay muted controls playsinline>
+                                    <source src="videos/Unity_ObstacleDodge.mp4" type="video/mp4">
+                                </video>
+                                <video width="100%" height="auto" autoplay muted controls playsinline>
+                                    <source src="videos/Unity_RocketBoost.mp4" type="video/mp4">
+                                </video>
+                                <video width="100%" height="auto" autoplay muted controls playsinline>
+                                    <source src="videos/Unity_GalaxyStrike.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                        <button class="carousel-button right" onclick="nextSlide('unity')">❯</button>
+                    </div>
+                    <div class="links">
+                        <a id="unity-github-link" href="#" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a id="unity-game-link" href="#" target="_blank" class="game-link">
+                            <i class="fas fa-gamepad"></i> Play Game
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Website Projects -->
+        <div class="project-container">
+            <div class="project">
+                <div class="project-details">
+                    <h3><i class="fas fa-laptop-code"></i> Website Projects</h3>
+                    <p>
+                        In these projects, I developed interactive websites, each showcasing different aspects of my web development skills. One website is dedicated to the magical world of Harry Potter, and the other is my personal portfolio. Both websites were built using HTML, CSS, and JavaScript, focusing on creating responsive and engaging user experiences.
+                    </p>
+                    <ul>
+                        <li><i class="fas fa-magic"></i> <strong>Harry Potter Website:</strong> A fan-driven platform exploring the Harry Potter universe, featuring detailed pages on characters, books, movies, and memes for personal enjoyment. Due to copyright restrictions, the website does not display the actual movies or books but offers a creative experience through the presented content.</li>
+                        <li><i class="fas fa-user-circle"></i> <strong>Portfolio Website:</strong> A personal website that highlights my skills, projects, and contact information. I focused on a clean, modern design with smooth transitions, responsive layout, and an interactive interface to showcase my work effectively.</li>
+                    </ul>
+                    <p>
+                        Both projects allowed me to improve my web development skills, from creating clean layouts to adding interactive elements.
+                    </p>
+                </div>
+                <div class="project-media">
+                    <div class="carousel" id="website-carousel">
+                        <button class="carousel-button left" onclick="prevSlide('website')">❮</button>
+                        <div class="carousel-track-container">
+                            <div class="carousel-track">
+                                <!-- Website Project Videos -->
+                                <video width="100%" height="auto" autoplay muted controls playsinline>
+                                    <source src="videos/HarryPoterWeb.mp4" type="video/mp4">
+                                </video>
+                                <video width="100%" height="auto" autoplay muted controls playsinline>
+                                    <source src="videos/PortfolioWebsite.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                        <button class="carousel-button right" onclick="nextSlide('website')">❯</button>
+                    </div>
+                    <div class="links">
+                        <a id="website-github-link" href="https://github.com/your-username/harry-potter-website" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i>                        
+                        </a>
+                        <a id="website-link" href="https://your-website-url.com" target="_blank" class="game-link">
+                            <i class="fas fa-globe"></i> Visit the Website
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="resume" class="section">
+        <h2>Resume</h2>
+        
+        <div class="resume-container">
+            <!-- Education Section -->
+            <div class="resume-part">
+                <h3>Education</h3>
+                <div class="expandable">
+                    <div class="expandable-item">
+                        <p><strong>2022-Present:</strong> Pursuing a bachelor's degree in <span class="highlight">Computer Science</span> at the <span class="highlight">Holon Institute of Technology (HIT)</span></p>
+                        <div class="expand-content">
+                            <ul>
+                                <li>Current GPA: <span class="highlight">94.4</span></li>
+                                <li>100 in <span class="highlight">Algorithms</span>, 99 in <span class="highlight">Advanced Programming Workshop</span>, 95 in <span class="highlight">Object-Oriented Programming</span>.</li>
+                                <li>Focused on hands-on experience and understanding core programming concepts.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="expandable-item">
+                        <p><strong>2021:</strong> QA course at <span class="highlight">HackerU</span></p>
+                        <div class="expand-content">
+                            <ul>
+                                <li>Developed hands-on expertise in <span class="highlight">QA methodologies</span>, testing techniques, and various <span class="highlight">test types</span>.</li>
+                                <li>Proficient in <span class="highlight">creating test documents</span>, executing <span class="highlight">test cases</span>, and generating detailed bug reports.</li>
+                                <li>Familiar with popular testing tools: <span class="highlight">Selenium, Jira, and TestRail</span>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="expandable-item">
+                        <p><strong>2016-2018:</strong> Graduated from <span class="highlight">"Ramot" High School</span>, Bat Yam</p>
+                        <div class="expand-content">
+                            <ul>
+                                <li>Graduated with honors, focusing on <span class="highlight">5 computer science units</span> and <span class="highlight">5 communication units</span>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="download-transcript">
+                    <p>Download my Grade sheet:</p>
+                    <a href="Downloads/Grade sheet.pdf" download="Meytal_Keren_Grade_sheet.pdf" class="download-btn">Download Grade sheet</a>
+                </div>
+            </div>
+    
+            <!-- Work Experience Section -->
+            <div class="resume-part">
+                <h3>Work Experience</h3>
+                <div class="expandable">
+                    <div class="expandable-item">
+                        <p><strong>2021-2022:</strong> <span class="highlight">QA Engineer</span> at <span class="highlight">Project Verte</span></p>
+                        <div class="expand-content">
+                            <ul>
+                                <li>Developed and implemented <span class="highlight">test plans</span>, <span class="highlight">test cases</span>, and <span class="highlight">scripts</span>, identifying and reporting bugs.</li>
+                                <li>Collaborated with <span class="highlight">development teams</span> to ensure compatibility across applications and systems.</li>
+                                <li>Experience in testing <span class="highlight">APIs</span>, <span class="highlight">interfaces</span>, <span class="highlight">GUI</span>, <span class="highlight">loads</span>, performance, and <span class="highlight">functionality</span>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="expandable-item">
+                        <p><strong>2019-2021:</strong> <span class="highlight">Data Analyst</span> at <span class="highlight">Mekol Halev Call Center</span></p>
+                        <div class="expand-content">
+                            <ul>
+                                <li>Performed <span class="highlight">data analysis</span> using <span class="highlight">CRM, CPR, and Composit systems</span>, improving medical conditions for IDF soldiers.</li>
+                                <li>Supervised <span class="highlight">70 call center agents</span> and enhanced performance through <span class="highlight">data-driven insights</span>.</li>
+                                <li>Created advanced <span class="highlight">Excel reports</span> to monitor and improve <span class="highlight">operational metrics</span>.</li>
+                                <li>Strong <span class="highlight">organizational skills</span>, <span class="highlight">time management</span>, independence, and professionalism.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Tools & Technologies Section -->
+            <div class="resume-part">
+                <h3>Tools & Technologies</h3>
+                <div class="tech-skills">
+                    <img src="icons/C.png" alt="C" title="C">
+                    <img src="icons/csharp.png" alt="C#" title="C#">
+                    <img src="icons/CPP.png" alt="C++" title="C++">
+                    <img src="icons/python.png" alt="Python" title="Python">
+                    <img src="icons/java.png" alt="JAVA" title="JAVA">
+                    <img src="icons/html.png" alt="HTML5" title="HTML5">
+                    <img src="icons/css.png" alt="CSS3" title="CSS3">
+                    <img src="icons/js.png" alt="JavaScript" title="JavaScript">
+                    <img src="icons/android.png" alt="Android" title="Android">
+                    <img src="icons/mysql.png" alt="MySQL" title="MySQL">
+                    <img src="icons/unity.png" alt="Unity" title="Unity">
+                </div>
+            </div>
+    
+        </div>
+        
+        <!-- CV Download Section -->
+        <div class="download-cv">
+            <p>Download my CV:</p>
+            <a href="Downloads/Meytal Keren -CV.pdf" download="Meytal_Keren_CV.pdf" class="download-btn">Download CV</a>
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <i class="fas fa-phone-alt"></i> <a href="tel:+972558852202">055-8852202</a></p>
+                <i class="fas fa-envelope"></i> <a href="mailto:Meytalkeren@gmail.com">Meytalkeren@gmail.com</a></p>
+                <i class="fab fa-linkedin"></i> <a href="http://www.linkedin.com/in/meytal-keren" target="_blank">Meytal Keren</a></p>
+                <i class="fab fa-github"></i> <a href="https://github.com/Meytalke" target="_blank">Meytalke</a></p>
+            </div>
+            <div class="message-form">
+                <h3>Leave a Message</h3>
+                <form id="contact-form">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required></textarea>
+    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-container">
+          <div class="footer-left">
+            <p>&copy; 2024 All Rights Reserved | Meytal Keren</p>
+          </div>
+          <div class="footer-right">
+            <ul>
+              <li><a href="http://www.linkedin.com/in/meytal-keren" target="_blank">LinkedIn</a></li>
+              <li><a href="https://github.com/Meytalke" target="_blank">GitHub</a></li>
+              <li><a href="mailto:Meytalkeren@gmail.com">Email</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
